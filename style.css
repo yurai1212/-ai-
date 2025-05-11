@@ -1,0 +1,44 @@
+body {
+    background-color: #fff0f5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #d63384;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    margin: 10px 0;
+}
+.btn {
+    background-color: #f06292;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ec407a;
+}
+.animal-name {
+    font-size: 28px;
+    color: #e91e63;
+}
+.user-photo {
+    width: 200px;
+    border-radius: 15px;
+    margin: 15px 0;
+}

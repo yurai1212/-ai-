@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>似てる動物AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>似てる動物AI</h1>
+            <p>顔写真を撮ってAIが診断！</p>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="image" accept="image/*" capture="user" required>
+                <button type="submit" class="btn">カメラで撮影する</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

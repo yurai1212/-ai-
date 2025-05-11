@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>診断結果 - 似てる動物AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>あなたに似ている動物は...</h2>
+            <h1 class="animal-name">{{ result.animal_name }}</h1>
+            <img src="{{ url_for('static', filename='uploads/' + result.filename) }}" class="user-photo" alt="your photo">
+            <a href="/" class="btn">もう一度診断する</a>
+        </div>
+    </div>
+</body>
+</html>
